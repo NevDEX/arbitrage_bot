@@ -1,0 +1,42 @@
+# Dependencies and local caches
+node_modules/
+.npm/
+.cache/
+
+# Build output
+bin/
+dist/
+build/
+target/
+/arbitrage
+/go-arbitrage/arbitrage
+
+# Local configuration and credentials
+arbitrage.json
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.sample
+keys/
+keystore/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Runtime recovery state and logs
+.arbitrage-state/
+.node-arbitrage-state/
+.rust-arbitrage-state/
+logs/
+*.log
+
+# Operating system and editor temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Keep source, documentation, example configs, and dependency lockfiles trackable.

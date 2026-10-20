@@ -1,0 +1,20 @@
+{
+  "name": "nevdex-uniswap-arbitrage",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A standalone NevDEX and Uniswap V3 arbitrage bot",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/cli.js",
+    "preview": "node src/cli.js --once",
+    "inspect": "node src/cli.js --check",
+    "check": "node scripts/check.js"
+  },
+  "dependencies": {
+    "decimal.js": "^10.6.0",
+    "ethers": "^6.17.0",
+    "lossless-json": "^4.3.2",
+    "ws": "^8.22.0"
+  }
+}
